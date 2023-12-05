@@ -40,6 +40,9 @@ void ElectronicControlUnit::handleCommand(char cCommand) {
     case 'e':
       actuateIRIllumination();
       break;
+    case 'X':
+    case 'x':
+      break;
     default:
       cout << "Invalid command" << endl;
   }
